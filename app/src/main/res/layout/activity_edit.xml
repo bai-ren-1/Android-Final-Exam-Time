@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!--  工具栏控件  -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Tool_Bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="ITIME"
+        app:titleTextColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/Input_Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Datetime"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/Save_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:textSize="18sp"/>
+
+</LinearLayout>
